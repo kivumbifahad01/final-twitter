@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+      padding: 0;
+      margin: 0;
+     background-color: skyblue;
+     background-image: url(download.png);
+     background-position: center fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+  }  
+
+  /*page container starts here*/
+  #page-container{
+      margin-left: 70px;
+  }
+  
+  #page-container h1{
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+  
+  }
+
+/*page container ends here*/
+
+ /*Left sidebar of the twitter page starts here*/
+ .left_sidebar{
+    position: absolute;
+    left: 220px;
+    top: 350px;
+}
+
+.left_part_top{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    text-align: center;
+}
+
+.left_part_top p{
+    font-size: 20px;
+}
+
+.left_sidebar p{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/*Left sidebar of the twitter page ends here*/
+
+/*Right sidebar of the twitter page starts here*/
+.right_sidebar{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    padding: 20px 20px;
+}
+
+.right_sidebar form label{
+    position: absolute;
+    top: 70px;
+    left: 320px;
+}
+
+.right_sidebar_info{
+    position: absolute;
+    left:100px;
+    top: 170px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+
+.right_sidebar_info img{
+    width: 50px;
+    height: 50px;   
+}
+
+.btn_signup{
+    width: 250px;
+    padding: 7px;
+    border: 1px solid #1DA1F2;
+    border-radius: 15px;
+    background-color: #1DA1F2;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn_login{
+    width: 250px;
+    padding: 7px;
+    border: 2px solid #1DA1F2;
+    border-radius: 15px;
+    background-color: inherit;
+    color: #1DA1F2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+input{
+padding: 10px;
+background-color: #f2f2f2;
+width: 200px;
+outline: none;
+border: 1px solid skyblue;
+border-radius: 7px;
+margin-left: 14px;
+color: #333;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type=text]{
+    width: 250px;
+}
+
+.btnlogin{
+    padding: 8px;
+    background-color: #fff;
+    width: 100px;
+    margin-left: 7px;
+    border: 2px solid #1DA1F2;
+    border-radius: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #1DA1F2;
+    font-weight: bold;
+    cursor: pointer;
+}
+/*Right sidebar of the twitter page ends here*/
